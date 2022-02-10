@@ -15,12 +15,12 @@ int total;
 
 cout << "enter the number of tickets sold for class A:";
 cin >> classA;
-cout <<"enter the number of tickets sold for class B:";
+cout << "enter the number of tickets sold for class B:";
 cin >> classB;
-cout <<"enter the number of tickets sold for class C:";
+cout << "enter the number of tickets sold for class C:";
 cin >> classC;
 
 total = (classA* priceA) + (classB * priceB) + (classC * priceC);
-cout <<"total price for ticket sold"<< total << endl;
+cout << "total price for ticket sold" << total << endl;
 
 }
